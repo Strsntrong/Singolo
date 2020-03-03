@@ -110,3 +110,155 @@ body {
   border-color: #c5c5c5;
 }
 
+/* About Block */
+
+.about-container {
+  position: relative;
+
+  max-width: 1020px;
+  height: 728px;
+
+  background: #f2f2f2;
+  border-bottom: 6px solid white;
+}
+
+.about-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 940px;
+  padding: 68px 0 0 40px;
+}
+
+.about-wrapper h2 {
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 18px;
+  text-align: left;
+  color: #666d89;
+  letter-spacing: -0.005em;
+}
+.about-wrapper p {
+  justify-content: space-between;
+  margin-top: 27px;
+
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: left;
+  color: #767e9e;
+  letter-spacing: 0.0009em;
+  word-spacing: 1px;
+}
+.about-wrapper span {
+  word-spacing: -0.1px;
+}
+
+.about-contacts-wrapper {
+  width: 940px;
+  padding: 45px 40px 0 40px;
+}
+
+h3 {
+  margin: 14px 0 10px 0;
+  overflow: hidden;
+
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: left;
+  color: #666d89;
+  letter-spacing: -0.0055em;
+  white-space: nowrap;
+}
+
+.personal-info {
+  width: 300px;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  text-align: justify;
+  color: #767e9e;
+  letter-spacing: 0.0025em;
+}
+
+.about-1 p {
+  letter-spacing: -0.02em;
+  word-spacing: 1.414px;
+}
+
+.about-2 p {
+  width: 301px;
+}
+
+.about-3 p {
+  letter-spacing: 0.0025em;
+  word-spacing: -0.18px;
+}
+
+.about-contacts {
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.about-1,
+.about-2,
+.about-3 {
+  box-sizing: border-box;
+  width: calc(1/3*100% - (1 - 1/3)*20px);
+}
+
+.about-2,
+.about-1 h3,
+.about-3 h3 {
+  margin-left: -1px;
+}
+
+.sb-menu {
+  margin-top: 8px;
+}
+
+#sb-1,
+#sb-2 {
+  margin-left: 1px;
+}
+
+.sb.facebook {
+  background-image: url(./assets/img/Facebook.png);
+}
+
+.sb.google {
+  background-image: url(./assets/img/google.png);
+}
+.sb.twitter {
+  background-image: url(./assets/img/twitter.png);
+}
+
+.sb.linkedin {
+  background-image: url(./assets/img/LinkedIn.png);
+}
+
+.sb:hover {
+  transform: scale(1.2);
+  opacity: 0.5;
+}
+
+.sb {
+  position: relative;
+
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin-right: 5px;
+}
+
+.sb span {
+  display: block;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
