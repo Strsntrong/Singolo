@@ -4,51 +4,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="singolo3.css">
-    <title>Singolo 3</title>
+    <link rel="stylesheet" href="singolo3.css">
+    <title>Singolo3</title>
 </head>
 
 <body>
-    <div class="wrapper">
-        <section class="get_a_quote">
-            <div class="wrapper">
-                <h2 class="quote__header">Get a Quote</h2>
-                <p class="quote__description">
-                    Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
-                </p>
-                <div class="form__container">
-                    <form action="" class="send__quote">
-                        <input type="text" name="name" id="name" placeholder="Name (Required)" required>
-                        <input type="email" name="email" id="email" placeholder="Email (Required)" required>
-                        <input type="text" name="subject" id="subject" placeholder="Subject">
-                        <textarea name="details" id="details" placeholder="Describe your project in detail..."></textarea>
-                        <input class="send__quote__submit" type="submit" value="Submit">
+    <main>
+        <div class="get-a-quote">
+            <div class="content">
+                <div class="get-a-quote-text">
+                    <h1>Get a Quote</h1>
+                    <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo
+                        luctus,
+                        nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus
+                        commodo,
+                        tortor mauris condimentum nibh.</p>
+                </div>
+                <div class="main-form">
+                    <form class="form">
+                        <input type="text" class="form-name" name="name" required placeholder="Name (Required)">
+                        <input type="email" class="form-email" name="email" required placeholder="Email (Required)">
+                        <input type="text" class="form-subject" name="subject" placeholder="Subject">
+                        <input type="text" class="form-describe" name="describe"
+                            placeholder="Describe your project in detail...">
+                        <button type="submit" class="submit">Submit</button>
                     </form>
-                    <div class="contact_info">
-                        <h2 class="contact__header">Contact Information</h2>
-                        <p class="contact__description">
-                            Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis.
-                        </p>
-                        <div class="contact_info__icon"><img src="assets/img/quote_contacts_icons/address.svg" alt="address"></div><a class="contact_info__contacts">Elm St. 14/05 Lost City</a><br>
-                        <div class="contact_info__icon"><img src="assets/img/quote_contacts_icons/phone.svg" alt="phone"></div><a class="contact_info__contacts" href="tel:+03528 331 86 35">03528 331 86 35</a><br>
-                        <div class="contact_info__icon"><img src="assets/img/quote_contacts_icons/email.svg" alt="email"></div><a class="contact_info__contacts" href="mailto:info@singolo.com">info@singolo.com</a><br>
+                    <div class="contacts">
+                        <div class="contact-info">
+                            <h2>Contact Information</h2>
+                            <p>Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam
+                                tellus.
+                                Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at
+                                aliquet
+                                turpis, et consequat felis.
+                                <div class="contact-links">
+                                    <p class="location"> <img src="assets/singolo3/for-contacts/location@1X.png" alt="location">
+                                        Elm St. 14/05 Lost
+                                        City</p>
+                                    <p class="phone"> <img src="assets/singolo3/for-contacts/phone@1X.png" alt="phone">
+                                        <a href="tel:03528 331 86 35">03528 331 86 35</a></p>
+                                    <p class="mail"> <img src="assets/singolo3/for-contacts/mail@1X.png" alt="mail">
+                                        <a href="mailto:info@singolo.com">info@singolo.com</a></p>
+                                </div>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </main>
 
-        </section>
-        <footer>
-            <div class="wrapper">
-                <span class="footer__copyright">&copy; Copyright 2013</span>
-                <div class="about_us__social-container">
-                    <a href="#" class="about_us__social facebook"></a>
-                    <a href="#" class="about_us__social google"></a>
-                    <a href="#" class="about_us__social twitter"></a>
-                    <a href="#" class="about_us__social linkedin"></a>
-                </div>
+    <footer>
+        <div class="content link-icons">
+            <div class="ph-elem-icons">
+                <img src="assets/singolo3/footer/facebook@1X.png" alt="facebook" class="facebook">
+                <img src="assets/singolo3/footer/Ellipse.png" alt="ellipse" class="ellipse">
+                <img src="assets/singolo3/footer/google+@1X.png" alt="google" class="google">
+                <img src="assets/singolo3/footer/Ellipse.png" alt="ellipse" class="ellipse ellipse-2">
+                <img src="assets/singolo3/footer/twitter@1X.png" alt="twitter" class="twitter">
+                <img src="assets/singolo3/footer/Ellipse.png" alt="ellipse" class="ellipse ellipse-3">
+                <img src="assets/singolo3/footer/linkedin@1X.png" alt="linkedin" class="linkedin">
+                <img src="assets/singolo3/footer/Ellipse.png" alt="ellipse" class="ellipse ellipse-4">
             </div>
-        </footer>
-    </div>
+            <div class="copyright">
+                <p><span>©</span> Copyright 2013</p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
